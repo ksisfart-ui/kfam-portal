@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-white py-12 md:py-20 px-6 antialiased">
+    <main className="min-h-screen bg-[#fcfaf8] py-12 md:py-20 px-6 antialiased">
       <div className="max-w-3xl mx-auto">
         <div className="mb-16">
           <Link href="/" className="text-xs text-gray-400 hover:text-[#b28c6e] flex items-center mb-8 transition-colors font-medium">

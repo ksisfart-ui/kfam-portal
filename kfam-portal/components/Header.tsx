@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-4 md:px-6 py-4 md:py-5 antialiased">
+    <header className="sticky top-0 z-50 bg-[#fcfaf8]/90 backdrop-blur-md border-b border-gray-100 px-4 md:px-6 py-4 md:py-5 antialiased">
       <div className="max-w-6xl mx-auto flex justify-between items-center gap-2">
         {/* ロゴ・タイトルエリア */}
         <Link href="/" className="group flex-shrink-1 min-w-0">
