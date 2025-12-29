@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class', // これを追記
+  darkMode: 'class', // ← これが抜けていると dark: クラスが無視されます
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // src配下のファイルをスキャンするように設定
   ],
-  // ...
-}
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
