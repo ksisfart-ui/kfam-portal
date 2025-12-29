@@ -28,11 +28,11 @@ export default function AboutPage() {
             <ul className="space-y-8 text-sm md:text-[15px]">
               <li className="flex gap-4">
                 <span className="text-[#b28c6e] font-bold">01</span>
-                <p><span className="font-bold text-gray-800">更新について：</span> 個人による手動更新のため、反映まで時間がかかる場合がございます。また、情報の正確性は保証しかねます。</p>
+                <p><span className="font-bold text-gray-800 dark:text-slate-100">更新について：</span> 個人による手動更新のため、反映まで時間がかかる場合がございます。また、情報の正確性は保証しかねます。</p>
               </li>
               <li className="flex gap-4">
                 <span className="text-[#b28c6e] font-bold">02</span>
-                <p><span className="font-bold text-gray-800">ネタバレへの配慮：</span> サイト内には暦家の物語に触れる内容が含まれます。未視聴の配信がある場合はご注意ください。</p>
+                <p><span className="font-bold text-gray-800 dark:text-slate-100">ネタバレへの配慮：</span> サイト内には暦家の物語に触れる内容が含まれます。未視聴の配信がある場合はご注意ください。</p>
               </li>
               <li className="flex gap-4 p-5 bg-white/60 dark:bg-slate-900/40 rounded-2xl border border-red-50 dark:border-red-900/20 shadow-sm">
                 <span className="text-red-500 dark:text-red-400 font-bold">03</span>
