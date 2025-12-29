@@ -17,11 +17,11 @@ export default function Header() {
         {/* ボタン：モバイルではさらにコンパクトに */}
         <Link 
           href="/about" 
-          className="bg-[#4eb0f0] hover:bg-[#399ede] text-white text-[10px] md:text-sm font-bold px-4 md:px-6 py-2 md:py-2.5 rounded-full transition-all shadow-sm hover:shadow-md flex items-center whitespace-nowrap flex-shrink-0"
+          className="bg-[#b28c6e] hover:bg-[#399ede] text-white text-[10px] md:text-sm font-bold px-4 md:px-6 py-2 md:py-2.5 rounded-full transition-all shadow-sm hover:shadow-md flex items-center whitespace-nowrap flex-shrink-0"
         >
           <span className="mr-1.5 md:mr-2">📖</span> 
           <span className="hidden xs:inline">このサイトについて</span>
-          <span className="xs:hidden font-bold">ABOUT</span>
+          <span className="xs:hidden font-bold">このサイトについて</span>
         </Link>
       </div>
     </header>
