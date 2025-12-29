@@ -62,11 +62,6 @@ export default function PortalPage() {
             </a>
           ))}
         </div>
-
-        {/* フッター */}
-        <footer className="mt-20 text-center text-gray-400 text-sm">
-          非公式 暦家ファンプロジェクト
-        </footer>
       </div>
     </main>
   );
