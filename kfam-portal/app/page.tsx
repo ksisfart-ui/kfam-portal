@@ -24,7 +24,7 @@ const projects = [
 
 export default function PortalPage() {
   return (
-    <main className="min-h-screen bg-[#f8f9fa] py-12 md:py-20 px-6">
+    <main className="min-h-screen bg-[#fcfaf8] py-12 md:py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

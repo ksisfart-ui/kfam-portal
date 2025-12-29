@@ -13,19 +13,10 @@ export default function AboutPage() {
         </div>
 
         <div className="space-y-20 text-slate-700 leading-loose">
-          <section>
-            <p className="text-base md:text-lg text-slate-800">
-              本サイトは、ストグラに登場する「暦家」の活動を記録・応援するための<strong className="text-slate-900 border-b-2 border-[#b28c6e]/20 px-1">非公式ファンポータル</strong>です。
-            </p>
-          </section>
-
           {/* 注意事項：既存サイトに合わせた清潔感のあるデザイン */}
           <section className="leading-loose">
             <p className="text-lg text-gray-800 mb-6">
               本サイトは、ストグラに登場する「暦家」の活動を応援・記録するための<strong className="text-gray-900">非公式ポータルサイト</strong>です。
-            </p>
-            <p className="text-sm">
-              個人が趣味の範囲で更新しており、各配信者様および運営様とは一切関係ありません。
             </p>
           </section>
 
@@ -54,31 +45,25 @@ export default function AboutPage() {
           </section>
 
           {/* お問い合わせ：下部に十分な余白を確保 */}
-          <section className="pt-10">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 p-8 md:p-10 bg-[#f8f9fa] rounded-[2rem] border border-gray-100">
-              <div className="max-w-md">
-                <h2 className="text-lg font-bold text-gray-800 mb-4">情報の修正・削除依頼について</h2>
-                <p className="text-xs text-gray-500 leading-relaxed mb-2">
-                  記載ミス、未掲載の情報、または掲載の取り下げ希望がございましたら、お手数ですが下記の制作者SNSのDMまでお知らせください。
-                </p>
-                <p className="text-[10px] text-gray-400">権利者様からの依頼には速やかに対応いたします。</p>
-              </div>
-              
-              <div className="flex items-center bg-white p-5 rounded-2xl shadow-sm border border-gray-50 min-w-[280px]">
-                <div className="flex-1">
-                  <p className="text-[10px] text-gray-400 font-bold tracking-wider mb-1 uppercase">Creator / Contact</p>
-                  <p className="text-sm font-bold text-gray-800">アド🍉 <span className="text-gray-400 font-normal">@admiral_splus</span></p>
+          <section className="pt-6">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 p-7 bg-white rounded-[1.5rem] border border-stone-100 shadow-[0_4px_20px_rgb(0,0,0,0.01)]">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-[#fcfaf8] rounded-full flex items-center justify-center text-[#b28c6e] text-sm font-black border border-stone-100">
+                  X
                 </div>
-                <a 
-                  href="https://twitter.com/admiral_splus" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bg-[#4eb0f0] hover:bg-gray-400 text-white text-[11px] font-bold px-4 py-2.5 rounded-xl flex items-center transition-all ml-4"
-                >
-                  <svg className="w-3.5 h-3.5 mr-1.5 fill-current" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
-                  DMを送る
-                </a>
+                <div>
+                  <p className="text-[9px] text-stone-400 font-black mb-0.5 tracking-widest uppercase">Contact</p>
+                  <p className="font-black text-stone-800 text-base">制作者SNS</p>
+                </div>
               </div>
+              <a 
+                href="https://x.com/admiral_splus" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-8 py-3 bg-[#1d9bf0] hover:bg-[#1a8cd8] text-white rounded-full font-black text-[13px] text-center transition-all shadow-sm flex items-center justify-center gap-2"
+              >
+                アド🍉 @admiral_splus
+              </a>
             </div>
           </section>
         </div>
