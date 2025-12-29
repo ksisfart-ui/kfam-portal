@@ -65,7 +65,7 @@ export default function PortalPage() {
 
         {/* フッター */}
         <footer className="mt-20 text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} 暦家ファンプロジェクト
+          非公式 暦家ファンプロジェクト
         </footer>
       </div>
     </main>
