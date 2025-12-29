@@ -1,14 +1,9 @@
 @import "tailwindcss";
+@import "./tailwind.config.js";
 
 :root {
   --background: #fcfaf8; /* 少し温かみのある白 */
   --foreground: #171717;
-}
-
-/* ダークモード時の色を明示的に指定 */
-.dark {
-  --background: #0f172a; /* slate-950相当 */
-  --foreground: #f1f5f9; /* slate-100相当 */
 }
 
 @theme inline {
