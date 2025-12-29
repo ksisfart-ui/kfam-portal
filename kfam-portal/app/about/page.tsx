@@ -12,7 +12,7 @@ export default function AboutPage() {
           <h1 className="text-3xl font-semibold text-slate-900 tracking-tight">このサイトについて</h1>
         </div>
 
-        <div className="space-y-20 text-slate-700 leading-loose">
+        <div className="space-y-15 text-slate-700 leading-loose">
           {/* 注意事項：既存サイトに合わせた清潔感のあるデザイン */}
           <section className="leading-loose">
             <p className="text-lg text-gray-800 mb-6">
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <ul className="space-y-8 text-sm md:text-[15px]">
               <li className="flex gap-4">
                 <span className="text-[#b28c6e] font-bold">01</span>
-                <p><span className="font-bold text-gray-800">更新について：</span> 個人が手動で更新しているため、反映には時間がかかります。また、情報の正確性は保証しかねます。</p>
+                <p><span className="font-bold text-gray-800">更新について：</span> 個人による手動更新のため、反映まで時間がかかる場合がございます。また、情報の正確性は保証しかねます。</p>
               </li>
               <li className="flex gap-4">
                 <span className="text-[#b28c6e] font-bold">02</span>
