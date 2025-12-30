@@ -1,22 +1,30 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fcfaf8; /* 少し温かみのある白 */
+  /* ライトモードの色 */
+  --background: #fcfaf8;
   --foreground: #171717;
+  --card-bg: #ffffff;
+}
+
+/* ボタン（.darkクラス）が押された時の色を定義 */
+.dark {
+  --background: #0f172a; /* 背景を濃い紺に */
+  --foreground: #f1f5f9; /* 文字を白に近いグレーに */
+  --card-bg: #1e293b;    /* カードの背景色 */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card-bg: var(--card-bg);
+  --color-koyomike: #b28c6e;
 }
 
 body {
+  /* 変数を使用することで、クラスの切り替えに追従させる */
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  /* ぼやけ対策として、デフォルトでは subpixel-antialiased を推奨 */
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
+  transition: background-color 0.3s, color 0.3s;
 }
