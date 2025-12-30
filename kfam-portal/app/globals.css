@@ -1,30 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  /* ライトモードの色 */
+  /* ライトモード */
   --background: #fcfaf8;
-  --foreground: #171717;
+  --foreground: #0f172a;
   --card-bg: #ffffff;
+  --card-border: #f1f5f9;
+  --text-main: #1e293b;
+  --text-sub: #64748b;
+  --koyomike: #b28c6e;
 }
 
-/* ボタン（.darkクラス）が押された時の色を定義 */
 .dark {
-  --background: #0f172a; /* 背景を濃い紺に */
-  --foreground: #f1f5f9; /* 文字を白に近いグレーに */
-  --card-bg: #1e293b;    /* カードの背景色 */
+  /* ダークモード */
+  --background: #020617; /* 深い紺黒 */
+  --foreground: #f1f5f9;
+  --card-bg: #0f172a;    /* カードの背景 */
+  --card-border: #1e293b;
+  --text-main: #f1f5f9;
+  --text-sub: #94a3b8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-card-bg: var(--card-bg);
-  --color-koyomike: #b28c6e;
+  --color-card: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-text-main: var(--text-main);
+  --color-text-sub: var(--text-sub);
+  --color-koyomike: var(--koyomike);
 }
 
 body {
-  /* 変数を使用することで、クラスの切り替えに追従させる */
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }

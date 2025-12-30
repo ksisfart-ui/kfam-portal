@@ -33,18 +33,18 @@ export default function PortalPage() {
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block bg-white dark:bg-slate-900/50 p-8 md:p-10 rounded-[2rem] border border-gray-100 dark:border-slate-800 shadow-[0_4px_20px_rgba(0,0,0,0.03)] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(178,140,110,0.12)] dark:hover:shadow-[0_10px_30px_rgba(0,0,0,0.3)] hover:-translate-y-1"
+              className="group block bg-card p-8 md:p-10 rounded-[2rem] border border-card-border shadow-sm transition-all hover:-translate-y-1"
             >
               <div className="text-3xl mb-6 opacity-80 group-hover:scale-110 transition-transform duration-300 inline-block">
                 {project.icon}
               </div>
-              <h2 className="text-xl font-bold text-gray-800 dark:text-slate-100 mb-4 group-hover:text-[#b28c6e] transition-colors">
+              <h2 className="text-xl font-bold text-text-main mb-4 group-hover:text-koyomike">
                 {project.title}
               </h2>
-              <p className="text-sm text-gray-500 dark:text-slate-400 leading-relaxed mb-8">
+              <p className="text-sm text-text-sub leading-relaxed mb-8">
                 {project.description}
               </p>
-              <div className="flex items-center text-xs font-bold text-gray-400 dark:text-slate-500 group-hover:text-[#b28c6e]">
+              <div className="flex items-center text-xs font-bold text-text-sub group-hover:text-koyomike transition-colors">
                 VIEW 
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
