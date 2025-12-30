@@ -4,19 +4,19 @@ import React from 'react';
 const projects = [
   {
     title: "暦ちひろDM履歴",
-    description: "家族グループや、暦ちひろとのやり取りをチャット形式で記録。",
+    description: "家族グループの内容、暦ちひろとのやり取りを見返したいときのやつ。",
     url: "https://kfam-history.vercel.app/",
     icon: "💬"
   },
   {
     title: "暦家住民アーカイブ検索",
-    description: "暦家が出会った住民のデータベース。名前や場所から検索し、相手視点へアクセス可能。",
+    description: "あのときの出来事を相手視点でも見たいなー、ってときに便利なやつ。",
     url: "https://kfam-archive-search.vercel.app/",
     icon: "📇"
   },
   {
     title: "暦家タイムライン",
-    description: "一日の行動を時系列で可視化。場所ごと・姉妹ごとに直感的なタイムライン形式で把握可能。",
+    description: "いつどこにいたか見たいなー、場所ごとでも見返せたらいいなー、ぱっと見でわかりやすいのがいいなー、が叶うやつ。",
     url: "https://kfam-timeline.vercel.app/",
     icon: "📅"
   }

@@ -16,7 +16,7 @@ export default function AboutPage() {
           {/* 注意事項：既存サイトに合わせた清潔感のあるデザイン */}
           <section className="leading-loose">
             <p className="text-lg text-text-main mb-6">
-              本サイトは、ストグラに登場する「暦家」の活動を応援・記録するための<strong className="text-gray-900">非公式ポータルサイト</strong>です。
+              本サイトは、ストグラに登場する「暦家」の活動を応援するための<strong className="text-text-main">非公式ポータルサイト</strong>です。
             </p>
           </section>
 
@@ -28,11 +28,11 @@ export default function AboutPage() {
             <ul className="space-y-8 text-sm md:text-[15px]">
               <li className="flex gap-4">
                 <span className="text-koyomike font-bold">01</span>
-                <p><span className="font-bold text-text-main">更新について：</span> 個人による手動更新のため、反映まで時間がかかる場合がございます。また、情報の正確性は保証しかねます。</p>
+                <p><span className="font-bold text-text-main">更新について：</span> 個人による手動更新のため、反映まで時間がかかる場合がございます。また、情報の正確性は保証いたしかねます。</p>
               </li>
               <li className="flex gap-4">
                 <span className="text-koyomike font-bold">02</span>
-                <p><span className="font-bold text-text-main">ネタバレへの配慮：</span> サイト内には暦家の物語に触れる内容が含まれます。未視聴の配信がある場合はご注意ください。</p>
+                <p><span className="font-bold text-text-main">ネタバレへの配慮：</span> 各サイトには物語に触れる内容が含まれます。未視聴の配信がある場合はご注意ください。</p>
               </li>
               <li className="flex gap-4 p-5 bg-red-500/5 rounded-2xl border border-red-500/20 shadow-sm">
                 <span className="text-red-500 font-bold">03</span>
